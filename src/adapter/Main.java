@@ -15,6 +15,8 @@ public class Main {
 		implement.printWeak();
 		implement.printStrong();
 		
+		System.out.println("");
+		
 		adapter.extend.PrintBanner extend = new adapter.extend.PrintBanner("PrintBanner");
 		extend.printWeak();
 		extend.printStrong();

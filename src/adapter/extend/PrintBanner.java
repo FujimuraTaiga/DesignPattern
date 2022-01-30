@@ -12,16 +12,20 @@ public class PrintBanner extends Print {
 
 	@Override
 	public void printWeak() {
+		System.out.println("");
 		System.out.println("-----------extend-----------");
 		banner.showWithParen();
 		System.out.println("-----------extend-----------");
+		System.out.println("");
 	}
 
 	@Override
 	public void printStrong() {
+		System.out.println("");
 		System.out.println("***********extend***********");
 		banner.showWithAster();
 		System.out.println("***********extend***********");
+		System.out.println("");
 	}
 	
 }
